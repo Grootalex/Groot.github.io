@@ -1,16 +1,34 @@
-# my_flutter_app
+# My Flutter App
 
-A new Flutter project.
+## Описание проекта
+Это стандартное Flutter приложение, созданное по техническому заданию.
 
-## Getting Started
+## Техническое задание
+1. ✅ Установить Flutter
+2. ✅ Создать стандартный Flutter проект через `flutter create project`
+3. ✅ Выполнить `flutter doctor` и получить скриншот
+4. ✅ Запустить приложение через `flutter run`
 
-This project is a starting point for a Flutter application.
+## Структура проекта
+- `lib/main.dart` - основной код приложения
+- `android/` - код для Android платформы
+- `ios/` - код для iOS платформы
+- `web/` - код для веб-платформы
+- `windows/` - код для Windows платформы
+- `linux/` - код для Linux платформы
+- `macos/` - код для macOS платформы
 
-A few resources to get you started if this is your first Flutter project:
+## Как запустить
+1. Убедитесь, что Flutter установлен
+2. Откройте терминал в папке проекта
+3. Выполните команду: `flutter run`
+4. Выберите устройство для запуска
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Функциональность
+Приложение представляет собой простой счетчик с кнопкой "+" для увеличения значения.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Автор
+Grootalex
+
+## Дата создания
+$(Get-Date -Format "dd.MM.yyyy")
